@@ -1,0 +1,85 @@
+    element.style{  
+
+    }
+    h2{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .modify-sec .onward, .modify-sec .return{
+        padding-top: 5px;
+    }
+    .modify-sec .jour-info .h2-tag-seo{
+        font-size: 14px;
+        display: inline;
+    }
+    .modify-sec-onward{
+        border-bottom: 1px solid #eee;
+        padding: 15px 10px 15px 25px;
+       }
+       .modify-sec .jour-info .prev{
+        padding-left: 15px;
+       }
+       .modify-sec .jour-info .next, .modify-sec .jour-info .prev{
+        cursor: pointer;
+       }
+       .modify-sec .icon-right-arrow{
+        padding: 0 15px;
+       }
+       .modify-sec .icon{
+        font-weight: 700;
+       }
+       .icon-right-arrow:before{
+        content:"\EA12";
+       }
+       .icon-left:before{
+        content: "\E9C4";
+       }
+    /* .fl{
+        float: left;
+    } */
+    .w-60{
+        width: 60%;
+    }
+   .d-color{
+    color: #3e3e52;
+   }
+   .d-block{
+    display: inline-block;
+   }
+   .f-bold{
+    font-weight: 700;
+   }
+   .clearfix:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+   }
+   ::-webkit-scrollbar{
+    width: 9px;
+   }
+   ::-webkit-scrollbar-thumb{
+    min-height: 25px;
+    background-color: #ddd;
+    box-shadow: inset 1px 1px 0 #aaa, inset 0 -1px 0 #aaa;
+   }
+   ::-webkit-scrollbar-track{
+    background-color: #aaa;
+   }
+   .modify-sec .searchDate{
+    background:none;
+    outline: 0 none!important;
+    border: 0 none;
+    width: 80px;
+    vertical-align:middle;
+    text-align: center;
+   }
+   input{
+    line-height: normal;
+   }
+   button, input, optgroup, select, textarea{
+    color: inherit;
+    font: inherit;
+    margin: 0;
+   }
