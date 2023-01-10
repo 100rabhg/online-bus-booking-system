@@ -1,0 +1,99 @@
+body{
+    font-family: 'Montserrat';
+    padding: 0px;
+    margin: 0px;
+}
+
+/* header */
+
+
+header{
+    display: block;
+    background-color: rgb(76, 79, 230);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+    font-weight: bolder;
+}
+.navbar{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    color: #fff;
+    flex-direction: row;
+    position:relative;
+    align-items: center;
+}
+
+li{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    font-weight: 500;
+
+}
+#logo{
+    font-weight: bold;
+    text-align: center;
+}
+#profile{
+    display: flex;
+    list-style: none;
+    margin :0px;
+    margin-block: 0em;
+    padding-inline: 0px;
+    width: 100%;
+    justify-content: right;
+}
+
+/* search section */
+
+input{
+    border:none;
+    outline: none;
+    height: 33px;
+    width: 150px;
+    font-size: large;
+
+}
+input:invalid {
+    border: 2px solid red;
+}
+input:focus {
+    border: none;
+}
+.input{
+
+    width: 250px;
+    height: 35px;
+    border: 1px solid black;
+    margin: 5px;
+}
+label{
+    margin-top: 10px;
+    font-size: 17px;
+    margin-left: 2px;
+}
+.inputimg{
+    height: 35px;
+    width: 30px;
+}
+#search_section{
+    display: flex;
+    margin: 20px auto;
+    width: fit-content;
+}
+button{
+    background-color:rgb(76, 79, 230) ;
+    width:150px;
+    border: none;
+    height: 36px;
+    margin: 5px;
+    font-size: large;
+    color: #fff;
+
+}

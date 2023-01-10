@@ -6,8 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <!-- font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>BUS Ticket Booking</h1>
+    <header>
+        <nav class="navbar">
+            <a href="/">BUSTRIP</a>
+            <nav id="profile">
+                <li class="head">Cancel Ticket</li>
+                <li class="head">Print/Send Ticket</li>
+                <li class="head">Help</li>
+                <img src="/images/account_circle.svg" alt="profile"class="head">
+            </nav>
+        </nav>
+    </header>
+    <!-- searching section -->
+    <div id="search_section">
+        <div class="input">
+            <label for="source">From</label>
+            <input type="text" id="source">
+            <!-- <img src="/images/location_city.svg" alt="" class="inputimg"> -->
+        </div>
+        <div class="input">
+            <label for="destination">TO</label>
+            <input type="text" id="destination">
+            <!-- <img src="/images/location_city.svg" alt="" class="inputimg"> -->
+        </div>
+        <div class="input">
+            <label for="date">ON</label>
+            <input type="date" id="date">
+            <!-- <img src="/images/calendar_.svg" alt="" class="inputimg"> -->
+        </div>
+        <button>Search Buses</button>
+
+    </div>
+
 </body>
 </html>
