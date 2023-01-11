@@ -1,5 +1,5 @@
 body{
-    font-family: 'Montserrat';
+    
     padding: 0px;
     margin: 0px;
 }
@@ -8,6 +8,7 @@ body{
 
 
 header{
+    font-family: 'Montserrat';
     display: block;
     background-color: rgb(35, 38, 195);
     width: 100%;
@@ -109,6 +110,7 @@ button{
 
 /* footer */
 footer{
+    font-family: 'Montserrat';
     height: 300px;
     background-color: rgb(51, 50, 50);
     display: flex;

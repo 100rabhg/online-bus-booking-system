@@ -1,10 +1,11 @@
 /* by sourabh */
     body{
-        font-family: 'Montserrat';
+        
         padding: 0px;
         margin: 0px;
     }
     header{
+        font-family: 'Montserrat';
         display: block;
         background-color: rgb(35, 38, 195);
         width: 100%;
@@ -13,7 +14,7 @@
         text-decoration: none;
         color: #fff;
         font-size: x-large;
-        font-weight: bolder;
+        font-weight: bold;
     }
     .navbar{
         max-width: 1200px;
@@ -49,6 +50,7 @@
 
     /* footer */
     footer{
+        font-family: 'Montserrat';
         height: 300px;
         background-color: rgb(51, 50, 50);
         display: flex;
@@ -109,6 +111,10 @@
     .modify-sec .jour-info .h2-tag-seo{
         font-size: 14px;
         display: inline;
+    }
+    .h2-tag-seo{
+        display: flex;
+
     }
     .modify-sec-onward{
         border-bottom: 1px solid #eee;
@@ -258,3 +264,41 @@
    }
    
    /* Ending by hemlata */
+
+   #main{
+    width: 100%;
+    display: flex;;
+    flex-direction: row;
+   }
+   #filter{
+        width: 20%;
+        border: 1px solid black;
+   }
+   #buses{
+        width:80%;
+        border: 1px solid black;
+   }
+   li{
+    list-style: none;
+    padding-left: 0px;
+    padding:7px 0px ;
+    font-size: small;
+   }
+   ul{
+    padding-left: 25px;
+    margin-top: 8px;
+   }
+   h5{
+    padding: 0px 25px;
+    margin:0px;
+   }
+   .filter{
+    width: 15px;
+    height: 15px;
+   }
+   .inputfilter{
+    padding: 0px 5px;
+    height: 25px;
+    width:200px;
+    font-size: 15px;
+   }

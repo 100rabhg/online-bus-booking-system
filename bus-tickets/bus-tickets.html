@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="bus-tickets.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <!-- header  -->
     <header>
@@ -21,20 +23,25 @@
             </nav>
         </nav>
     </header>
-    
+
     <div id="fixer" class="fixer">
         <div class="modify-sec-onward clearfix modify-sec d-color f-bold">
             <div class="w-60 fl jour-info clearfix">
                 <div class="onward d-block fl">
-                    <h2 class="h2-tag-seo"><span class="src" title="Vijay Nagar, Indore">Vijay Nagar, Indore</span>
-                        <i class="icon icon-right-arrow"></i>
+                    <h2 class="h2-tag-seo">
+                        <span class="src" title="Vijay Nagar, Indore">Vijay Nagar, Indore</span>
+                        <img src="/images/arrow_right.svg" alt="to" width="12px">
                         <span class="dst" title="Sangamwadi, Pune">Sangamwadi, Pune</span>
                     </h2>
                     <span class="prev"><i class="icon icon-left"></i></span>
-                    <span class="dateDispOnw"><input type="text" id="searchDat" readonly="" class="searchDate" value="13 Jan" fdprocessedid="z91mkd"><span class="searchday"> Fri</span></span>
+                    <span class="dateDispOnw"><input type="text" id="searchDat" readonly="" class="searchDate"
+                            value="13 Jan" fdprocessedid="z91mkd"><span class="searchday"> Fri</span></span>
                     <span class="next"><i class="icon icon-right"></i></span>
                 </div>
-                <div class="onward-modify-btn g-button clearfix fl">Modify</div></div></div></div>
+                <div class="onward-modify-btn g-button clearfix fl">Modify</div>
+            </div>
+        </div>
+    </div>
 
     <!-- <div>
         <li id="1" class="row-sec clearfix">
@@ -51,6 +58,100 @@
         </li>
     </div> -->
     <!-- footer  -->
+
+
+    <div id="main" class="main">
+        <div id="filter" class="main">
+            <h3>FILTERS</h3>
+            <h5>DEPARTURE TIME</h5>
+            <ul>
+                <li>
+                    <input type="checkbox" id="depbef6" value="before-6" name="depttime" class="filter">
+                    <Label for="depbef6">Before 6 am</Label>
+                </li>
+                <li>
+                    <input type="checkbox" id="dep6-12" value="6-12" name="depttime" class="filter">
+                    <Label for="dep6-12">6 am to 12 pm</Label>
+                </li>
+                <li>
+                    <input type="checkbox" id="dep12-6" value="12-6" name="depttime" class="filter">
+                    <Label for="dep12-6">12 pm to 6 pm</Label>
+                </li>
+                <li>
+                    <input type="checkbox" id="depaft6" value="after-6" name="depttime" class="filter">
+                    <Label for="depaft6">After 6 pm</Label>
+                </li>
+            </ul>
+
+            <h5>ARRIVAL TIME</h5>
+            <ul>
+                <li>
+                    <input type="checkbox" id="arrbef6" value="before-6" name="arrtime" class="filter">
+                    <Label for="arrbef6">Before 6 am</Label>
+                </li>
+                <li>
+                    <input type="checkbox" id="arr6-12" value="6-12" name="arrtime" class="filter">
+                    <Label for="arr6-12">6 am to 12 pm</Label>
+                </li>
+                <li>
+                    <input type="checkbox" id="arr12-6" value="12-6" name="arrtime" class="filter">
+                    <Label for="arr12-6">12 pm to 6 pm</Label>
+                </li>
+                <li>
+                    <input type="checkbox" id="arraft6" value="after-6" name="arrtime" class="filter">
+                    <Label for="arraft6">After 6 pm</Label>
+                </li>
+            </ul>
+
+            <h5>BUS TYPES</h5>
+            <ul>
+                <li>
+                    <input type="checkbox" id="SEATER" value="SEATER" name="busty" class="filter">
+                    <Label for="SEATER">SEATER</Label>
+                </li>
+                <li>
+                    <input type="checkbox" id="SLEEPER" value="SLEEPER" name="busty" class="filter">
+                    <Label for="SLEEPER">SLEEPER</Label>
+                </li>
+                <li>
+                    <input type="checkbox" id="AC" value="AC" name="busty" class="filter">
+                    <Label for="AC">AC</Label>
+                </li>
+                <li>
+                    <input type="checkbox" id="NONAC" value="NONAC" name="busty" class="filter">
+                    <Label for="NONAC">NONAC</Label>
+                </li>
+            </ul>
+
+            <h5>OPERATOR</h5>
+            <ul>
+                <li>
+                    <input type="text" id="operator" placeholder="    OPERATOR" class="inputfilter" >
+                </li>
+            </ul>
+            <h5>BOARDING POINT</h5>
+            <ul>
+                <li>
+                    <input type="text" id="boarding" placeholder="    BOARDING POINT" class="inputfilter"  >
+                </li>
+            </ul>
+
+            <h5>DROPPING POINT</h5>
+            <ul>
+                <li>
+                    <input type="text" id="dropping" placeholder="    DROPPING POINT" class="inputfilter"  >
+                </li>
+            </ul>
+
+
+        </div>
+        
+        <div id="buses" class="main">
+
+        </div>
+    </div>
+
+    <!-- footer -->
     <footer>
         <div id="footer">
             <a href="/" style="color:rgb(54, 54, 223);">BusTrip</a>
@@ -85,4 +186,5 @@
         </div>
     </footer>
 </body>
+
 </html>
