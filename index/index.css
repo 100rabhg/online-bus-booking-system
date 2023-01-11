@@ -9,7 +9,7 @@ body{
 
 header{
     display: block;
-    background-color: rgb(76, 79, 230);
+    background-color: rgb(35, 38, 195);
     width: 100%;
 }
 a{
@@ -55,8 +55,8 @@ li{
 input{
     border:none;
     outline: none;
-    height: 33px;
-    width: 150px;
+    height: 43px;
+    width: 175px;
     font-size: large;
 
 }
@@ -68,15 +68,17 @@ input:focus {
 }
 .input{
 
-    width: 250px;
-    height: 35px;
+    width: 260px;
+    height: 45px;
     border: 1px solid black;
-    margin: 5px;
+
 }
 label{
     margin-top: 10px;
     font-size: 17px;
     margin-left: 2px;
+    color: rgb(90, 89, 89);
+    font-weight: bold;
 }
 .inputimg{
     height: 35px;
@@ -84,16 +86,59 @@ label{
 }
 #search_section{
     display: flex;
-    margin: 20px auto;
+    margin: 220px auto;
     width: fit-content;
+    background-color: #fff;
 }
 button{
     background-color:rgb(76, 79, 230) ;
     width:150px;
     border: none;
-    height: 36px;
-    margin: 5px;
+    height: 47px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top:1px solid black;
     font-size: large;
     color: #fff;
 
+}
+#mid{
+    border-left: none;
+    border-right: none;
+}
+
+/* footer */
+footer{
+    height: 300px;
+    background-color: rgb(51, 50, 50);
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+table{
+    margin-left: 120px;
+}
+th{
+    width: 200px ;
+    height: 50px;
+    text-align: left;
+}
+td{
+    height: 40px;
+}
+#footer{
+    width: 55%;
+    height: 60%;
+    padding: 44px 100px;
+    padding-right:0px ;
+}
+p,h5{
+margin: 0%;
+display:;
+}
+#copyright{
+    width: 30%;
+    height: 60%;
+    padding: 60px 0px;
 }
