@@ -288,6 +288,19 @@
     padding-left: 25px;
     margin-top: 8px;
    }
+   h3{
+    padding-left:7px ;
+    display: inline;
+    font-size: small;
+    font-weight: bolder;
+   }
+   #filterhead{
+    margin: 10px 5px;
+   }
+   #reset{
+    color: #da2a48;
+    margin-left: 50%;
+   }
    h5{
     padding: 0px 25px;
     margin:0px;
