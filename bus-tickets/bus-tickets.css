@@ -1,13 +1,9 @@
-    
+/* by sourabh */
     body{
         font-family: 'Montserrat';
         padding: 0px;
         margin: 0px;
     }
-    
-    /* header */
-    
-    
     header{
         display: block;
         background-color: rgb(35, 38, 195);
@@ -24,8 +20,8 @@
         margin: auto;
         display: flex;
         color: #fff;
-        flex-direction: row;
-        position:relative;
+        flex-direction: row; 
+         position:relative;
         align-items: center;
     }
     
@@ -85,9 +81,11 @@
         height: 60%;
         padding: 60px 0px;
     }
+     /* Done by sourabh */
     
-    
-    [class*=" icon-"], [class^=icon-]{
+/* Starting by hemlata */
+
+    /* [class*=" icon-"], [class^=icon-]{
         font-family: icomoon!important;
         speak: never;
         font-style: normal;
@@ -100,14 +98,14 @@
         text-transform: none;
         line-height: 1;
         -webkit-font-smoothing:antialiased;        
-    }
+    } */
     h2{
         font-size: 1.5em;
         font-weight: bold;
     }
-    .modify-sec .onward, .modify-sec .return{
+    /* .modify-sec .onward, .modify-sec .return{
         padding-top: 5px;
-    }
+    } */
     .modify-sec .jour-info .h2-tag-seo{
         font-size: 14px;
         display: inline;
@@ -116,39 +114,40 @@
         border-bottom: 1px solid #eee;
         padding: 15px 10px 15px 25px;
        }
-       .modify-sec .jour-info .prev{
-        padding-left: 15px;
-       }
-       .modify-sec .jour-info .next, .modify-sec .jour-info .prev{
+       /* .modify-sec .jour-info .prev{
+        padding-left: 100px;
+       } */
+       /* .modify-sec .jour-info .next, .modify-sec .jour-info .prev{
         cursor: pointer;
-       }
+       } */
        .modify-sec .icon-right-arrow{
         padding: 0 15px;
-        padding-top: 0px;
+        /* padding-top: 0px;
         padding-right: 15px;
         padding-bottom: 0px;
-        padding-left: 15px;
+        padding-left: 15px; */
        }
-       .modify-sec .icon{
-        font-weight: 700;
-       }
-       .modify-sec .jour-info .g-button{
+        /* .modify-sec .icon{
+            font-weight: 700;
+        } */
+       /* .modify-sec .jour-info .g-button{
         margin-left: 24px;
-       }
-       .modify-sec .jour-info .dateDispOnw{
+       } */
+       /* .modify-sec .jour-info .dateDispOnw{
         position: relative;
-       }
+       } */
        .g-button{
         border: 1px solid #3e3e52;
-        border-radius: 3px;
-        background-color: #f8f4f4;
-        padding: 5px 25px;
+        border-radius: 10px;
+        background-color: wheat;
+        padding: 5px 20px;
         display: inline-block;
-        font-weight: 400;
+        font-weight: 700;
+        /* margin-top: 20px; */
        }
-       .button, .g-button{
+       /* .button, .g-button{
         cursor: pointer;
-       }
+       } */
        .icon-right-arrow:before{
         content:"\EA12";
        }
@@ -170,13 +169,13 @@
    .f-bold{
     font-weight: 700;
    }
-   .clearfix:after{
+   /* .clearfix:after{
     content: ".";
     display: block;
     height: 0;
     clear: both;
     visibility: hidden;
-   }
+   } */
    ::-webkit-scrollbar{
     width: 9px;
    }
@@ -258,3 +257,4 @@
     font-size: 12px;
    }
    
+   /* Ending by hemlata */
