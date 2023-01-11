@@ -90,19 +90,16 @@ h2{
     font-size: 1.5em;
     font-weight: bold;
 }
-.modify-sec .jour-info .h2-tag-seo{
+.modify-bt .j-info .h2-tag-seo{
     font-size: 14px;
     display: inline;
 }
 .h2-tag-seo{
     display: flex;
 }
-.modify-sec-onward{
+.modify-button{
     border-bottom: 1px solid #eee;
     padding: 15px 10px 15px 25px;
-   }
-   .modify-sec .icon-right-arrow{
-    padding: 0 15px;
    }
    .g-button{
     border: 1px solid #3e3e52;
@@ -111,9 +108,6 @@ h2{
     padding: 5px 20px;
     display: inline-block;
     font-weight: 700;
-   }
-   .icon-right-arrow:before{
-    content:"\EA12";
    }
    .icon-left:before{
     content: "\E9C4";
@@ -130,7 +124,7 @@ display: inline-block;
 .f-bold{
 font-weight: 700;
 }
-.modify-sec .searchDate{
+.modify-bt .searchDate{
 border: 0 none;
 width:90px;
 vertical-align:middle;
