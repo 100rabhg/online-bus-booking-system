@@ -16,7 +16,7 @@
     a{
         text-decoration: none;
         color: #fff;
-        font-size: larger;
+        font-size: x-large;
         font-weight: bolder;
     }
     .navbar{
@@ -79,7 +79,6 @@
     }
     p,h5{
     margin: 0%;
-    display:;
     }
     #copyright{
         width: 30%;
@@ -88,9 +87,6 @@
     }
     
     
-    element.style{  
-
-    }
     [class*=" icon-"], [class^=icon-]{
         font-family: icomoon!important;
         speak: never;

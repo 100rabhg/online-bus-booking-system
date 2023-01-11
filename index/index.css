@@ -15,7 +15,7 @@ header{
 a{
     text-decoration: none;
     color: #fff;
-    font-size: larger;
+    font-size: x-large;
     font-weight: bolder;
 }
 .navbar{
@@ -135,7 +135,6 @@ td{
 }
 p,h5{
 margin: 0%;
-display:;
 }
 #copyright{
     width: 30%;
