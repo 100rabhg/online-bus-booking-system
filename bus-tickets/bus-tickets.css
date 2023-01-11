@@ -91,7 +91,7 @@ h2{
     font-weight: bold;
 }
 .modify-bt .j-info .h2-tag-seo{
-    font-size: 14px;
+    font-size: 20px;
     display: inline;
 }
 .h2-tag-seo{
@@ -99,13 +99,13 @@ h2{
 }
 .modify-button{
     border-bottom: 1px solid #eee;
-    padding: 15px 10px 15px 25px;
+    padding: 15px 10px 15px 30px;
    }
    .g-button{
     border: 1px solid #3e3e52;
-    border-radius: 10px;
+    border-radius: 100px;
     background-color: wheat;
-    padding: 5px 20px;
+    padding: 5px 25px;
     display: inline-block;
     font-weight: 700;
    }
@@ -121,12 +121,9 @@ color: #3e3e52;
 .d-block{
 display: inline-block;
 }
-.f-bold{
-font-weight: 700;
-}
 .modify-bt .searchDate{
 border: 0 none;
-width:90px;
+width:70px;
 vertical-align:middle;
 text-align: center;
 } 
