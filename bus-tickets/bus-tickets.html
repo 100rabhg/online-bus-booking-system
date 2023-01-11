@@ -117,25 +117,35 @@
 
         <div id="buses" class="main">
             <div id="head">
-                <div class="head" style="font-weight: bold;">32 Buses found</div>
-                <div class="head">Departure</div>
-                <div class="head">Departure</div>
-                <div class="head">Departure</div>
-                <div class="head">Duration</div>
-                <div class="head">Arrival</div>
-                <div class="head">Ratings</div>
-                <div class="head">Fare</div>
-                <div class="head">Seats Available</div>
+                <div class="head" style="font-weight: bold; font-size: 15px;">32 Buses found</div>
+                <div class="head" id="secondhead">
+                    <div class="detailhead">Departure</div>
+                    <div class="detailhead">Duration</div>
+                    <div class="detailhead">Arrival</div>
+                    <div class="detailhead">Ratings</div>
+                    <div class="detailhead">Fare</div>
+                    <div class="detailhead" id="seatdes">Seats Available</div>
+                </div>
             </div>
 
             <!-- main buses -->
-            <ul>
+            <ul class="buses">
                 <li class="buses">
                     <div class="busdetail">
                         <div class="busname">Bus Name</div>
                         <div class="buscategory">Bus Category</div>
                     </div>
-                    <div></div>
+
+                    <div class="Departure">15:00</div>
+                    <div class="duration">4h 30m</div>
+                    <div class="arrival">19:30</div>
+                    <div class="ratings">
+                        <img src="/images/rating.svg" alt="" id="rateing">
+                        <div id="rate">4.5</div>
+                    </div>
+                    <div class="fare">&#8377;320</div>
+                    <div class="seatavi"><div id="seat">18</div>&ThickSpace; Seat Available</div>
+                    <button class="button">VIEW SEATS</button>
                 </li>
             </ul>
         </div>

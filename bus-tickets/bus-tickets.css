@@ -1,194 +1,332 @@
 /* by sourabh */
-    body{
-        
-        padding: 0px;
-        margin: 0px;
-    }
-    header{
-        font-family: 'Montserrat';
-        display: block;
-        background-color: rgb(35, 38, 195);
-        width: 100%;
-    }
-    a{
-        text-decoration: none;
-        color: #fff;
-        font-size: x-large;
-        font-weight: bold;
-    }
-    .navbar{
-        max-width: 1200px;
-        margin: auto;
-        display: flex;
-        color: #fff;
-        flex-direction: row; 
-         position:relative;
-        align-items: center;
-    }
-    
-    li{
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 12px;
-        padding-bottom: 10px;
-        font-weight: 500;
-    
-    }
-    #logo{
-        font-weight: bold;
-        text-align: center;
-    }
-    #profile{
-        display: flex;
-        list-style: none;
-        margin :0px;
-        margin-block: 0em;
-        padding-inline: 0px;
-        width: 100%;
-        justify-content: right;
-    }
+body {
 
-    /* footer */
-    footer{
-        font-family: 'Montserrat';
-        height: 300px;
-        background-color: rgb(51, 50, 50);
-        display: flex;
-        flex-direction: row;
-        color: #fff;
-    }
-    
-    table{
-        margin-left: 120px;
-    }
-    th{
-        width: 200px ;
-        height: 50px;
-        text-align: left;
-    }
-    td{
-        height: 40px;
-    }
-    #footer{
-        width: 55%;
-        height: 60%;
-        padding: 44px 100px;
-        padding-right:0px ;
-    }
-    p,h5{
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    font-family: 'Montserrat';
+    display: block;
+    background-color: rgb(35, 38, 195);
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    color: #fff;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+}
+
+li {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    font-weight: 500;
+
+}
+
+#logo {
+    font-weight: bold;
+    text-align: center;
+}
+
+#profile {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    margin-block: 0em;
+    padding-inline: 0px;
+    width: 100%;
+    justify-content: right;
+}
+
+/* footer */
+footer {
+    font-family: 'Montserrat';
+    height: 300px;
+    background-color: rgb(51, 50, 50);
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+table {
+    margin-left: 120px;
+}
+
+th {
+    width: 200px;
+    height: 50px;
+    text-align: left;
+}
+
+td {
+    height: 40px;
+}
+
+#footer {
+    width: 55%;
+    height: 60%;
+    padding: 44px 100px;
+    padding-right: 0px;
+}
+
+p,
+h5 {
     margin: 0%;
-    }
-    #copyright{
-        width: 30%;
-        height: 60%;
-        padding: 60px 0px;
-    }
-     /* Done by sourabh */
-    
+}
+
+#copyright {
+    width: 30%;
+    height: 60%;
+    padding: 60px 0px;
+}
+
+/* Done by sourabh */
+
 /* Starting by hemlata */
-h2{
+h2 {
     font-size: 1.5em;
     font-weight: bold;
 }
-.modify-bt .j-info .h2-tag-seo{
+
+.modify-bt .j-info .h2-tag-seo {
     font-size: 14px;
     display: inline;
 }
-.h2-tag-seo{
+
+.h2-tag-seo {
     display: flex;
 }
-.modify-button{
+
+.modify-button {
     border-bottom: 1px solid #eee;
     padding: 15px 10px 15px 25px;
-   }
-   .g-button{
+}
+
+.g-button {
     border: 1px solid #3e3e52;
     border-radius: 10px;
     background-color: wheat;
     padding: 5px 20px;
     display: inline-block;
     font-weight: 700;
-   }
-   .icon-left:before{
+}
+
+.icon-left:before {
     content: "\E9C4";
-   }
-.w-60{
+}
+
+.w-60 {
     width: 60%;
 }
-.d-color{
-color: #3e3e52;
+
+.d-color {
+    color: #3e3e52;
 }
-.d-block{
-display: inline-block;
+
+.d-block {
+    display: inline-block;
 }
-.f-bold{
-font-weight: 700;
+
+.f-bold {
+    font-weight: 700;
 }
-.modify-bt .searchDate{
-border: 0 none;
-width:90px;
-vertical-align:middle;
-text-align: center;
-} 
-   /* Ending by hemlata */
+
+.modify-bt .searchDate {
+    border: 0 none;
+    width: 90px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* Ending by hemlata */
 /* starting by sourabh - left side view */
-   #main{
+#main {
     width: 100%;
-    display: flex;;
+    display: flex;
+    ;
     flex-direction: row;
-   }
-   #filter{
-        width: 20%;
-        border: 1px solid black;
-   }
-   #buses{
-        width:80%;
-        border: 1px solid black;
-   }
-   li{
+}
+
+#filter {
+    width: 20%;
+}
+
+#buses {
+    width: 80%;
+}
+
+li {
     list-style: none;
     padding-left: 0px;
-    padding:7px 0px ;
+    padding: 7px 0px;
     font-size: small;
-   }
-   ul{
+}
+
+ul {
     padding-left: 25px;
     margin-top: 8px;
-   }
-   h3{
-    padding-left:7px ;
+}
+
+h3 {
+    padding-left: 7px;
     display: inline;
     font-size: small;
     font-weight: bolder;
-   }
-   #filterhead{
+}
+
+#filterhead {
     margin: 10px 5px;
-   }
-   #reset{
+}
+
+#reset {
     color: #da2a48;
     margin-left: 50%;
-   }
-   h5{
+}
+
+h5 {
     padding: 0px 25px;
-    margin:0px;
-   }
-   .filter{
+    margin: 0px;
+}
+
+.filter {
     width: 15px;
     height: 15px;
-   }
-   .inputfilter{
+}
+
+.inputfilter {
     padding: 0px 5px;
     height: 25px;
-    width:200px;
+    width: 200px;
     font-size: 15px;
-   }
-   /* starting by sourabh - right side view */
-   #head{
+}
+
+/* starting by sourabh - right side view */
+#head {
     margin-top: 10px;
     margin-left: 10px;
-   }
-   .head{
+}
+
+.head {
+    margin-left: 10px;
     display: inline;
-    margin :0px 10px;
+}
+
+#secondhead {
+    margin-left: 2%;
+}
+
+.detailhead {
+    display: inline;
+    margin-left: 7%;
     font-size: small;
-   }
+}
+
+.busname {
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+li.buses {
+    border: 1px solid rgb(199, 199, 199);
+    margin: 0px;
+    display: flex;
+}
+
+.busdetail {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 16%;
+    max-width: 17%;
+    padding-right: 2%;
+    word-wrap: break-word;
+    display: inline;
+}
+
+.buscategory {
+    color: #7e7e83;
+}
+
+ul.buses {
+    padding: 0px;
+}
+
+.Departure {
+    font-size: x-large;
+    width: 110px;
+    font-weight: bold;
+    padding-right: 21px;
+}
+
+.duration {
+    font-size: large;
+    color: #7e7e83;
+    width: 103px;
+    padding-right: 20px;
+    margin-top: 5px;
+}
+
+.arrival {
+    font-size: x-large;
+    width: 100px;
+    padding-right: 20px;
+}
+
+#seatdes {
+    margin-left: 10%;
+}
+
+.ratings {
+    display: flex;
+    border-radius: 5px;
+    background-color: #fa9441;
+    height: 30px;
+    margin-right: 57px;
+}
+
+#rateing {
+    height: 80%;
+    margin: 3px;
+}
+
+#rate {
+    height: 80%;
+    margin-top: 12%;
+    margin: 6px;
+}
+
+.fare {
+    font-weight: bolder;
+    font-size: x-large;
+    width: 113px;
+    padding-right: 20px;
+    word-wrap: break-word;
+}
+
+.seatavi {
+    width: 120px;
+    color: #7e7e83;
+    font-size: 15px;
+    padding-right: 10px;
+}
+#seat {
+    color: black;
+    display: inline;
+    font-weight: 500;
+    width: fit-content;
+}
