@@ -102,9 +102,8 @@ h2 {
     font-size: 1.5em;
     font-weight: bold;
 }
-
-.modify-bt .j-info .h2-tag-seo {
-    font-size: 14px;
+.modify-bt .j-info .h2-tag-seo{
+    font-size: 20px;
     display: inline;
 }
 
@@ -114,14 +113,13 @@ h2 {
 
 .modify-button {
     border-bottom: 1px solid #eee;
-    padding: 15px 10px 15px 25px;
-}
-
-.g-button {
+    padding: 15px 10px 15px 30px;
+   }
+   .g-button{
     border: 1px solid #3e3e52;
-    border-radius: 10px;
+    border-radius: 100px;
     background-color: wheat;
-    padding: 5px 20px;
+    padding: 5px 25px;
     display: inline-block;
     font-weight: 700;
 }
@@ -137,23 +135,16 @@ h2 {
 .d-color {
     color: #3e3e52;
 }
-
-.d-block {
-    display: inline-block;
+.d-block{
+display: inline-block;
 }
-
-.f-bold {
-    font-weight: 700;
-}
-
-.modify-bt .searchDate {
-    border: 0 none;
-    width: 90px;
-    vertical-align: middle;
-    text-align: center;
-}
-
-/* Ending by hemlata */
+.modify-bt .searchDate{
+border: 0 none;
+width:70px;
+vertical-align:middle;
+text-align: center;
+} 
+   /* Ending by hemlata */
 /* starting by sourabh - left side view */
 #main {
     width: 100%;
