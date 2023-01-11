@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <!-- font link -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav class="navbar">
@@ -17,30 +19,67 @@
                 <li class="head">Cancel Ticket</li>
                 <li class="head">Print/Send Ticket</li>
                 <li class="head">Help</li>
-                <img src="/images/account_circle.svg" alt="profile"class="head">
+                <img src="/images/account_circle.svg" alt="profile" class="head">
             </nav>
         </nav>
     </header>
     <!-- searching section -->
-    <div id="search_section">
-        <div class="input">
-            <label for="source">From</label>
-            <input type="text" id="source">
-            <!-- <img src="/images/location_city.svg" alt="" class="inputimg"> -->
-        </div>
-        <div class="input">
-            <label for="destination">TO</label>
-            <input type="text" id="destination">
-            <!-- <img src="/images/location_city.svg" alt="" class="inputimg"> -->
-        </div>
-        <div class="input">
-            <label for="date">ON</label>
-            <input type="date" id="date">
-            <!-- <img src="/images/calendar_.svg" alt="" class="inputimg"> -->
-        </div>
-        <button>Search Buses</button>
+    <main>
 
-    </div>
-
+        <div style="background-color: rgb(54, 54, 223); display: flex;">
+            <div id="search_section">
+                <div class="input">
+                    <label for="source">From</label>
+                    <input type="text" id="source">
+                    <!-- <img src="/images/location_city.svg" alt="" class="inputimg"> -->
+                </div>
+                <div class="input" id="mid">
+                    <label for="destination" class="lab">TO</label>
+                    <input type="text" id="destination">
+                    <!-- <img src="/images/location_city.svg" alt="" class="inputimg"> -->
+                </div>
+                <div class="input">
+                    <label for="date">ON</label>
+                    <input type="date" id="date">
+                    <!-- <img src="/images/calendar_.svg" alt="" class="inputimg"> -->
+                </div>
+                <button>Search Buses</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer">
+            <a href="/" style="color:rgb(54, 54, 223);">BUSTRIP</a>
+            <table>
+                <tr>
+                    <th>Company</th>
+                    <th>Traveller Service</th>
+                    <th>Information</th>
+                </tr>
+                <tr>
+                    <td>Home</td>
+                    <td>Cancellation</td>
+                    <td>Terms & condition</td>
+                </tr>
+                <tr>
+                    <td>About us</td>
+                    <td>Print E ticket</td>
+                    <td>Privacy policy</td>
+                </tr>
+                <tr>
+                    <td>Feedback</td>
+                    <td>FAQ</td>
+                    <td>Contact us</td>
+                </tr>
+            </table>
+        </div>
+        <div id="copyright">
+            <img src="/images/Facebook.png" alt="Facebook" width="40px" height="40px">
+            <img src="/images/twitter.png" alt="Facebook" width="40px" height="40px">
+            <p>BusTrip is a site to book a online bus ticket booking.</p>
+            <h5>&copy; &ThickSpace; 2023 BusTrip All Right Reserved</h5>
+        </div>
+    </footer>
 </body>
+
 </html>
