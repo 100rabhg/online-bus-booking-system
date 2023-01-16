@@ -16,13 +16,15 @@
         <nav class="navbar">
             <a href="/">BusTrip</a>
             <nav id="profile">
-                <li >Cancel Ticket</li>
-                <li >Print/Send Ticket</li>
-                <li >Help</li>
-                <img src="/images/account_circle.svg" alt="profile" >
+                <li class="header">Cancel Ticket</li>
+                <li class="header">Print/Send Ticket</li>
+                <li class="header">Help</li>
+                <img src="/images/account_circle.svg" alt="profile" class="header">
             </nav>
         </nav>
     </header>
+
+    <!-- heena  -->
     <div class="modify-button modify-bt d-color">
         <div class="w-60 j-info">
             <div class="d-block">
@@ -39,77 +41,77 @@
             <div class="g-button">Modify</div>
         </div>
     </div>
-    <!-- footer  -->
 
+<!-- sourabh  -->
     <div id="main" class="main">
         <div id="filter" class="main">
             <div id="filterhead">
                 <h3>FILTERS</h3>
                 <h3 id="reset">RESET</h3>
             </div>
-            <h5>DEPARTURE TIME</h5>
+            <h5 class="filterheading">DEPARTURE TIME</h5>
             <ul>
-                <li>
+                <li class="filterlist">
                     <input type="checkbox" id="depbef6" value="before-6" name="depttime" class="filter">
                     <Label for="depbef6">Before 6 am</Label>
                 </li>
-                <li>
+                <li class="filterlist">
                     <input type="checkbox" id="dep6-12" value="6-12" name="depttime" class="filter">
                     <Label for="dep6-12">6 am to 12 pm</Label>
                 </li>
-                <li>
+                <li class="filterlist">
                     <input type="checkbox" id="dep12-6" value="12-6" name="depttime" class="filter">
                     <Label for="dep12-6">12 pm to 6 pm</Label>
                 </li>
-                <li>
+                <li class="filterlist">
                     <input type="checkbox" id="depaft6" value="after-6" name="depttime" class="filter">
                     <Label for="depaft6">After 6 pm</Label>
                 </li>
             </ul>
 
-            <h5>ARRIVAL TIME</h5>
+            <h5 class="filterheading">ARRIVAL TIME</h5>
             <ul>
-                <li>
+                <li class="filterlist">
                     <input type="checkbox" id="arrbef6" value="before-6" name="arrtime" class="filter">
                     <Label for="arrbef6">Before 6 am</Label>
                 </li>
-                <li>
+                <li class="filterlist">
                     <input type="checkbox" id="arr6-12" value="6-12" name="arrtime" class="filter">
                     <Label for="arr6-12">6 am to 12 pm</Label>
                 </li>
-                <li>
+                <li class="filterlist">
                     <input type="checkbox" id="arr12-6" value="12-6" name="arrtime" class="filter">
                     <Label for="arr12-6">12 pm to 6 pm</Label>
                 </li>
-                <li>
+                <li class="filterlist">
                     <input type="checkbox" id="arraft6" value="after-6" name="arrtime" class="filter">
                     <Label for="arraft6">After 6 pm</Label>
                 </li>
             </ul>
 
-            <h5>BUS TYPES</h5>
+            <h5 class="filterheading">BUS TYPES</h5>
             <ul>
-                <li>
+                <li class="filterlist">
                     <input type="checkbox" id="SEATER" value="SEATER" name="busty" class="filter">
                     <Label for="SEATER">SEATER</Label>
                 </li>
-                <li>
+                <li class="filterlist">
                     <input type="checkbox" id="SLEEPER" value="SLEEPER" name="busty" class="filter">
                     <Label for="SLEEPER">SLEEPER</Label>
                 </li>
-                <li>
+                <li class="filterlist">
                     <input type="checkbox" id="AC" value="AC" name="busty" class="filter">
                     <Label for="AC">AC</Label>
                 </li>
-                <li>
+                <li class="filterlist">
                     <input type="checkbox" id="NONAC" value="NONAC" name="busty" class="filter">
                     <Label for="NONAC">NONAC</Label>
                 </li>
             </ul>
 
-            <h5>OPERATOR</h5>
+            <h5 class="filterheading">OPERATOR</h5>
             <ul>
-                <li>
+                <li class="filterlist">
                     <input type="text" id="operator" placeholder="    OPERATOR" class="inputfilter" >
                 </li>
             </ul>
@@ -132,21 +134,25 @@
             <!-- main buses -->
             <ul class="buses">
                 <li class="buses">
-                    <div class="busdetail">
-                        <div class="busname">Bus Name</div>
-                        <div class="buscategory">Bus Category</div>
+                    <div id="upper">
+                        <div class="busdetail">
+                            <div class="busname">Bus Name</div>
+                            <div class="buscategory">Bus Category</div>
+                        </div>
+                        
+                        <div class="Departure">15:00</div>
+                        <div class="duration">4h 30m</div>
+                        <div class="arrival">19:30</div>
+                        <div class="ratings">
+                            <img src="/images/rating.svg" alt="" id="rateing">
+                            <div id="rate">4.5</div>
+                        </div>
+                        <div class="fare">&#8377;320</div>
+                        <div class="seatavi"><div id="seat">18</div>&ThickSpace; Seat Available</div>
                     </div>
-
-                    <div class="Departure">15:00</div>
-                    <div class="duration">4h 30m</div>
-                    <div class="arrival">19:30</div>
-                    <div class="ratings">
-                        <img src="/images/rating.svg" alt="" id="rateing">
-                        <div id="rate">4.5</div>
+                    <div class="clearfix">
+                        <button class="button" id="viewseats">VIEW SEATS</button>
                     </div>
-                    <div class="fare">&#8377;320</div>
-                    <div class="seatavi"><div id="seat">18</div>&ThickSpace; Seat Available</div>
-                    <button class="button">VIEW SEATS</button>
                 </li>
             </ul>
         </div>

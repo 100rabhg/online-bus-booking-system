@@ -6,7 +6,6 @@ body{
 
 /* header */
 
-
 header{
     font-family: 'Montserrat';
     display: block;
@@ -29,13 +28,13 @@ a{
     align-items: center;
 }
 
-li{
+li.header{
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 12px;
     padding-bottom: 10px;
     font-weight: 500;
-
+    cursor:pointer;
 }
 #logo{
     font-weight: bold;
@@ -101,7 +100,6 @@ button{
     border-top:1px solid black;
     font-size: large;
     color: #fff;
-
 }
 #mid{
     border-left: none;
